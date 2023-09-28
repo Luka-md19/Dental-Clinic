@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/DentalClinicAPI-Malik/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDentalClinicDbConnectio_EC60E03DE7",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/malik-apps-dbserver/databases/DentalClinic.APIDb",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DentalClinicDbConnectionString",
+      "dynamicId": null
+    }
+  }
+}
