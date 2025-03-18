@@ -8,9 +8,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-[Route("api/v{version:apiVersion}/dentists")]
+[Route("api/[controller]")]
+
 [ApiController]
-[ApiVersion("1.0", Deprecated = true)]
+
 
 public class DentistsController : ControllerBase
 {
@@ -73,7 +74,7 @@ public class DentistsController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    [Authorize(Roles = "Administrator")]
+   
     public async Task<IActionResult> PutDentist(int id, UpdateDentistDto updateDentistDto)
     {
         if (id != updateDentistDto.Id)

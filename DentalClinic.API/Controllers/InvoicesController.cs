@@ -18,6 +18,7 @@ using Microsoft.AspNetCore.OData.Query;
 namespace DentalClinic.API.Controllers
 {
     [Route("api/[controller]")]
+
     [ApiController]
  
     public class InvoicesController : ControllerBase

@@ -8,6 +8,7 @@ using System.Data;
 namespace DentalClinic.API.Controllers
 {
     [Route("api/[controller]")]
+
     [ApiController]
     public class AccountConroller : ControllerBase
     {

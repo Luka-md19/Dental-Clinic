@@ -21,6 +21,7 @@ using DentalClinic.API.Repository;
 namespace DentalClinic.API.Controllers
 {
     [Route("api/[controller]")]
+
     [ApiController]
     
     public class PatientsController : ControllerBase

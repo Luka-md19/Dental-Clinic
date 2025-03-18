@@ -3,8 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 namespace DentalClinic.API.Controllers
 {
     [ApiController]
-    [Route("v{version:apiVersion}/[controller]")]
-    [ApiVersion("3.0")]
+    [Route("api/[controller]")]
+
+
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

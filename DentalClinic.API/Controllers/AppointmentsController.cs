@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 namespace DentalClinic.API.Controllers
 {
     [Route("api/[controller]")]
+
     [ApiController]
     
     public class AppointmentsController : ControllerBase
